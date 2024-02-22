@@ -1,0 +1,435 @@
+{
+	"info": {
+		"_postman_id": "7dcaa5ef-e796-4ad4-ac82-38ac20752d8a",
+		"name": "agencytravel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30186850"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"item": [
+				{
+					"name": "allClients",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n        {\r\n            \"name\": \"Adriana\",\r\n            \"lastName\": \"Nievas\",\r\n            \"dni\": \"85412587G\",\r\n            \"numberPhone\": \"2321455663\",\r\n            \"email\": \"Adriana@example.com\"\r\n        }\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/allClients",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"allClients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "client/{id}",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n        {\r\n            \"name\": \"Adriana\",\r\n            \"lastName\": \"Nievas\",\r\n            \"dni\": \"85412587G\",\r\n            \"numberPhone\": \"2321455663\",\r\n            \"email\": \"Adriana@example.com\"\r\n        }\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/allClients",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"allClients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "allFlights",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n        {\r\n            \"name\": \"Adriana\",\r\n            \"lastName\": \"Nievas\",\r\n            \"dni\": \"85412587G\",\r\n            \"numberPhone\": \"2321455663\",\r\n            \"email\": \"Adriana@example.com\"\r\n        }\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/allClients",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"allClients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/agency/allhotels",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n        {\r\n            \"name\": \"Adriana\",\r\n            \"lastName\": \"Nievas\",\r\n            \"dni\": \"85412587G\",\r\n            \"numberPhone\": \"2321455663\",\r\n            \"email\": \"Adriana@example.com\"\r\n        }\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/allClients",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"allClients"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "POST",
+			"item": [
+				{
+					"name": "agency/hotels/new",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code\": \"typeOfSeat-002\",\r\n    \"name\" : \"Hotel Granada\",\r\n    \"city\" : \"Granada\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/agency/hotels/new",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"agency",
+								"hotels",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agency/rooms/new",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code\": \"CO-001\",\r\n    \"name\" : \"Hotel Córdoba\",\r\n    \"city\" : \"Córdoba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/agency/hotels/new",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"agency",
+								"hotels",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "agency/allhotels",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code\": \"CO-001\",\r\n    \"name\" : \"Hotel Córdoba\",\r\n    \"city\" : \"Córdoba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/agency/hotels/new",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"agency",
+								"hotels",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "newClient",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code\": \"CO-001\",\r\n    \"name\" : \"Hotel Córdoba\",\r\n    \"city\" : \"Córdoba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/newClient",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"newClient"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "newFlight",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code\": \"CO-001\",\r\n    \"name\" : \"Hotel Córdoba\",\r\n    \"city\" : \"Córdoba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/newClient",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"newClient"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "bookFlights",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code\": \"CO-001\",\r\n    \"name\" : \"Hotel Córdoba\",\r\n    \"city\" : \"Córdoba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/newClient",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"newClient"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "roomBooking/new",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code\": \"CO-001\",\r\n    \"name\" : \"Hotel Córdoba\",\r\n    \"city\" : \"Córdoba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/newClient",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"newClient"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PUT",
+			"item": [
+				{
+					"name": "agency/hotels/edit/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"hotelId\": 1,\r\n    \"code\": \"CO-00100\",\r\n    \"name\": \"Hotel Córdoba.\",\r\n    \"city\": \"Córdoba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/agency/hotels/delete/3",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"agency",
+								"hotels",
+								"delete",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "client/{id]",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"hotelId\": 1,\r\n    \"code\": \"CO-00100\",\r\n    \"name\": \"Hotel Córdoba.\",\r\n    \"city\": \"Córdoba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/agency/hotels/delete/3",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"agency",
+								"hotels",
+								"delete",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "DELETE",
+			"item": [
+				{
+					"name": "agency/hotels/delete/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"hotelId\": 1,\r\n    \"code\": \"CO-00100\",\r\n    \"name\": \"Hotel Córdoba.\",\r\n    \"city\": \"Córdoba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/agency/hotels/delete/3",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"agency",
+								"hotels",
+								"delete",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

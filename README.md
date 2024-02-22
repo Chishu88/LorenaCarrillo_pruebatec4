@@ -44,7 +44,8 @@ Example request (JSON)
 
 ## CRUD Operations
 
-Hotel Operations
+## Hotel Operations
+
 Create: **POST** /agency/hotels/new
 
 Update: **PUT** /agency/hotels/edit/{id}
@@ -55,7 +56,8 @@ Get hotel by ID: **GET** /agency/hotels/{id}
 
 Get all hotels: **GET** /agency/hotels
 
-Flight Operations
+## Flight Operations
+
 Create: **POST** /agency/flights/new
 
 Update: **PUT** /agency/flights/edit/{id}

@@ -46,9 +46,13 @@ Example request (JSON)
 
 Hotel Operations
 Create: **POST** /agency/hotels/new
+
 Update: **PUT** /agency/hotels/edit/{id}
+
 Delete: **DELETE** /agency/hotels/delete/{id}
+
 Get hotel by ID: **GET** /agency/hotels/{id}
+
 Get all hotels: **GET** /agency/hotels
 
 Flight Operations

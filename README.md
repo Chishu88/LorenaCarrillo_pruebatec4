@@ -57,9 +57,13 @@ Get all hotels: **GET** /agency/hotels
 
 Flight Operations
 Create: **POST** /agency/flights/new
+
 Update: **PUT** /agency/flights/edit/{id}
+
 Delete: **DELETE** /agency/flights/delete/{id}
+
 Get flight by ID: **GET** /agency/flights/{id}
+
 Get all flights: **GET** /agency/flights
 
 
